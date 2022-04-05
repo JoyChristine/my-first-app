@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./warning-alert.component.css']
 })
 export class WarningAlertComponent implements OnInit {
-
+  buttonDislikeStatus = "";
   constructor() { }
 
   ngOnInit(): void {
+  }
+  clickDislikeButton() {
+    this.buttonDislikeStatus = "You dislike this";
   }
 
 }
