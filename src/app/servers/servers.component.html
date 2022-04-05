@@ -1,3 +1,11 @@
-<button class="btn btn-primary" [disabled]="!allowNewServer">add Server</button>
-<app-server></app-server>
-<app-server></app-server>
+<button class="btn btn-primary" 
+[disabled]="!allowNewServer"
+(click)="onCreateServer()"
+>add Server</button>
+<!-- string interpolation -->
+<!-- <p [innerText]="allowNewServer"> </p> -->
+<!-- property binding -->
+<!-- <p>{{allowNewServer}}</p> -->
+<p>{{serverCreationStatus}}</p>
+<!-- <app-server></app-server>
+<app-server></app-server> -->

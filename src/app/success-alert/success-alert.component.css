@@ -1,6 +1,6 @@
 .success{
     background-color: rgb(59, 194, 100);
-    padding: 2% 2% 2% 2%;
+    border: none;
     text-align: center;
-    font-size: 5vw;
+    font-size: 1vw;
 }

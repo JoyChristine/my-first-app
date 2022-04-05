@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./success-alert.component.css']
 })
 export class SuccessAlertComponent implements OnInit {
-
+  buttonStatus = "like";
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  
 }
